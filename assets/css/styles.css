@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+:root {
+    --primary-color: #1ebfc1;
+}
 
 html {
     font-size: 62.5%;
@@ -14,4 +17,86 @@ body {
 body {
     font-family: "Poppins", sans-serif;
     font-size: 1.6rem;
+}
+
+/* ============================Common================================== */
+.main-content {
+    width: 1170px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0 16px;
+    min-width: 186px;
+    line-height: 68px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius: 14px;
+    background: var(--primary-color);
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* ============================Header================================== */
+.header {
+    background: #fff;
+    padding-top: 48px;
+    position: sticky;
+    top: -48px;
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.header .nav {
+    display: flex;
+    margin-left: 220px;
+}
+
+.header .nav a {
+    padding: 8px 20px;
+    color: #2f3a3b;
+    font-size: 1.6rem;
+}
+
+.header .nav a:hover {
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 1);
+}
+
+.header .action {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.header .sign-in-cta {
+    color: #494949;
+    font-size: 1.6rem;
+}
+
+.header .sign-up-cta {
+    min-width: 108px;
+    line-height: 48px;
+    font-size: 1.6rem;
+    border-radius: 6px;
+    border: 1px solid #1ebfc1;
+    text-align: center;
+    margin-left: 24px;
+}
+
+.header .sign-up-cta:hover {
+    background: transparent;
+    color: var(--primary-color);
 }
