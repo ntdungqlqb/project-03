@@ -115,6 +115,13 @@ a {
     border-radius: 6px;
     text-align: center;
     margin-left: 24px;
+    color: var(--primary-color);
+    background: #fff;
+}
+
+.header .sign-up-cta:hover {
+    color: #fff;
+    background: var(--primary-color);
 }
 
 /* ============================Hero================================== */
@@ -191,6 +198,7 @@ a {
     object-fit: cover;
     background: #e0f7f6;
     margin-left: auto;
+    border-radius: 10px;
 }
 
 .hero .media .lable {
@@ -498,4 +506,124 @@ a {
     margin-top: 11px;
     color: #767e7e;
     font-size: 1.8rem;
+}
+
+/* ============================About================================== */
+.about {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.about .body {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.about .content {
+    width: 36%;
+}
+
+.about blockquote {
+    width: 419px;
+    margin: 27px 0 33px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    line-height: 150%;
+}
+
+.about .content .desc {
+    padding-left: 13px;
+    position: relative;
+    color: #767e7e;
+    font-size: 1.6rem;
+}
+
+.about .content .desc::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+    transform: translateY(-50%);
+}
+
+.about .desc strong {
+    color: #070707;
+}
+
+.about .control {
+    display: flex;
+    gap: 30px;
+    margin-top: 52px;
+}
+
+.about .control-btn {
+    width: 50px;
+    height: 50px;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 50%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .control-btn:hover {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.about-avatar {
+    position: relative;
+    width: 59%;
+}
+
+.about-avatar .avatar {
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.about-avatar .avatar:nth-child(1) {
+    left: 0;
+    bottom: 145px;
+}
+
+.about-avatar .avatar:nth-child(2) {
+    width: 92px;
+    height: 92px;
+    left: 145px;
+    top: -37px;
+}
+
+.about-avatar .avatar:nth-child(3) {
+    width: 110px;
+    height: 110px;
+    right: 0;
+    top: 19px;
+}
+
+.about-avatar .avatar:nth-child(4) {
+    right: 0;
+    bottom: 29px;
+}
+
+.about-avatar .avatar:nth-child(5) {
+    left: 212px;
+    bottom: -37px;
+}
+
+.about-avatar .avatar:nth-child(6) {
+    width: 235px;
+    height: 235px;
+    right: 171px;
+    top: 70px;
 }
