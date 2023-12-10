@@ -202,7 +202,7 @@ a {
 .hero-courses {
     position: absolute;
     bottom: 407px;
-    left: 5px;
+    left: 25px;
     padding: 18px 25px;
     border-radius: 18px;
     background: #fefefd;
@@ -212,8 +212,21 @@ a {
     justify-content: center;
 }
 
-.hero-courses img {
+.hero-courses span {
+    position: relative;
+    display: flex;
+    justify-content: center;
     margin-right: 16px;
+}
+
+.hero-courses span::after {
+    position: absolute;
+    bottom: 8px;
+    content: "";
+    width: 28px;
+    height: 4px;
+    background: #ffffff;
+    border-radius: 2px;
 }
 
 .hero-courses .lable {
