@@ -60,6 +60,13 @@ a {
     overflow: hidden;
 }
 
+.sub-title.head {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
+
 /* ============================Header================================== */
 .header {
     background: #fff;
@@ -277,17 +284,11 @@ a {
     display: flex;
     align-items: center;
     height: 100vh;
+    background: #f8f8f8;
 }
 
 .features .body {
     width: 88%;
-}
-
-.features-top .sub-title {
-    color: #767e7e;
-    font-size: 1.2rem;
-    font-weight: 700;
-    letter-spacing: 6px;
 }
 
 .features-top .title {
@@ -358,4 +359,130 @@ a {
     color: #9da6a5;
     font-size: 1.6rem;
     line-height: 168.75%;
+}
+
+/* ============================Courses================================== */
+.courses {
+    padding: 130px 0 65px;
+}
+
+.courses-top .title {
+    margin: 18px 0;
+    color: #0d1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+.courses-top .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses-top .row .desc {
+    width: 525px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    line-height: 177.778%;
+}
+
+.courses-top .row a {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.popular-courses {
+    margin-top: 79px;
+    display: flex;
+    justify-content: space-between;
+    gap: 47px;
+}
+
+.popular-courses .item {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.popular-courses .item .image {
+    width: 359px;
+    height: 393px;
+    object-fit: cover;
+    border-radius: 8px;
+    opacity: 0.4;
+    background: #d0efed;
+}
+
+.popular-courses .info {
+    position: absolute;
+    bottom: -71px;
+    width: 325px;
+    padding: 19px 25px 29px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.popular-courses .info .title {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.popular-courses .info .price {
+    margin: 16px 0 10px;
+    color: #767e7e;
+    font-size: 1.6rem;
+}
+
+.popular-courses .info span {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.popular-courses .info .desc {
+    color: #9da6a5;
+    font-size: 1.4rem;
+}
+
+.popular-courses .info .lable {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+    gap: 10px;
+}
+
+.popular-courses .info .dot {
+    width: 6px;
+    height: 6px;
+    background: var(--primary-color);
+    border-radius: 50%;
+}
+
+.courses-bottom {
+    margin: 265px auto 0;
+    display: flex;
+    width: 862px;
+    justify-content: space-between;
+}
+
+.courses-bottom .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.courses-bottom strong {
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+}
+
+.courses-bottom .desc {
+    margin-top: 11px;
+    color: #767e7e;
+    font-size: 1.8rem;
 }
