@@ -433,7 +433,11 @@ a {
     object-fit: cover;
     border-radius: 8px;
     opacity: 0.4;
-    background: #d0efed;
+}
+
+.popular-courses .item:hover .image {
+    opacity: 0.8;
+    transition: 0.4s;
 }
 
 .popular-courses .info {
@@ -626,4 +630,31 @@ a {
     height: 235px;
     right: 171px;
     top: 70px;
+}
+
+/* ============================Contact================================== */
+.contact {
+    padding: 76px 0;
+    background: #def6f5;
+}
+
+.contact .body {
+    display: flex;
+    align-items: center;
+}
+
+.contact .info {
+    margin-right: 410px;
+}
+
+.contact .info .title {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+.contact .info .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
 }
