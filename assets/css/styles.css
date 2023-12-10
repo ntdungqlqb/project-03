@@ -90,7 +90,6 @@ a {
 .header .nav a {
     padding: 8px 20px;
     color: #2f3a3b;
-    font-size: 1.6rem;
 }
 
 .header .nav a:hover {
@@ -105,13 +104,11 @@ a {
 
 .header .sign-in-cta {
     color: #494949;
-    font-size: 1.6rem;
 }
 
 .header .sign-up-cta {
     min-width: 108px;
     line-height: 48px;
-    font-size: 1.6rem;
     border-radius: 6px;
     text-align: center;
     margin-left: 24px;
@@ -378,7 +375,6 @@ a {
 
 .list-features .item .desc {
     color: #9da6a5;
-    font-size: 1.6rem;
     line-height: 168.75%;
 }
 
@@ -459,7 +455,6 @@ a {
 .popular-courses .info .price {
     margin: 16px 0 10px;
     color: #767e7e;
-    font-size: 1.6rem;
 }
 
 .popular-courses .info span {
@@ -541,7 +536,6 @@ a {
     padding-left: 13px;
     position: relative;
     color: #767e7e;
-    font-size: 1.6rem;
 }
 
 .about .content .desc::before {
@@ -656,5 +650,68 @@ a {
 .contact .info .desc {
     margin-top: 18px;
     color: #767e7e;
+    font-size: 1.8rem;
+}
+
+/* ============================Footer================================== */
+.footer {
+    padding: 130px 0 50px;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .column .title {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.footer .column .list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer a {
+    color: #535353;
+}
+
+.footer .title.social {
+    margin-bottom: 18px;
+}
+
+.footer .social {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer .social li {
+    display: flex;
+    align-items: center;
+}
+
+.footer .social .icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 9px;
+}
+
+.footer .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .copyright .desc {
+    margin-top: 80px;
+    color: #b0b5b4;
     font-size: 1.8rem;
 }
