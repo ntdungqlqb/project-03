@@ -428,11 +428,11 @@ a {
     height: 393px;
     object-fit: cover;
     border-radius: 8px;
-    opacity: 0.4;
+    opacity: 0.7;
 }
 
 .popular-courses .item:hover .image {
-    opacity: 0.8;
+    opacity: 0.9;
     transition: 0.4s;
 }
 
